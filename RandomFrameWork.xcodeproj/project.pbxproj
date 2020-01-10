@@ -7,26 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4609BB123C858330094DB4E /* RandomFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4609BA723C858330094DB4E /* RandomFrameWork.framework */; };
 		A4609BB823C858330094DB4E /* RandomFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = A4609BAA23C858330094DB4E /* RandomFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4609BC223C858880094DB4E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4609BC123C858880094DB4E /* Services.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A4609BB223C858330094DB4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4609B9E23C858330094DB4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4609BA623C858330094DB4E;
-			remoteInfo = RandomFrameWork;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A4609BA723C858330094DB4E /* RandomFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4609BAA23C858330094DB4E /* RandomFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomFrameWork.h; sourceTree = "<group>"; };
 		A4609BAB23C858330094DB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4609BB023C858330094DB4E /* RandomFrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomFrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4609BC123C858880094DB4E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,14 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4609BAD23C858330094DB4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4609BB123C858330094DB4E /* RandomFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				A4609BA723C858330094DB4E /* RandomFrameWork.framework */,
-				A4609BB023C858330094DB4E /* RandomFrameWorkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,24 +87,6 @@
 			productReference = A4609BA723C858330094DB4E /* RandomFrameWork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A4609BAF23C858330094DB4E /* RandomFrameWorkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4609BBE23C858330094DB4E /* Build configuration list for PBXNativeTarget "RandomFrameWorkTests" */;
-			buildPhases = (
-				A4609BAC23C858330094DB4E /* Sources */,
-				A4609BAD23C858330094DB4E /* Frameworks */,
-				A4609BAE23C858330094DB4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4609BB323C858330094DB4E /* PBXTargetDependency */,
-			);
-			name = RandomFrameWorkTests;
-			productName = RandomFrameWorkTests;
-			productReference = A4609BB023C858330094DB4E /* RandomFrameWorkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,9 +100,6 @@
 					A4609BA623C858330094DB4E = {
 						CreatedOnToolsVersion = 11.3;
 						LastSwiftMigration = 1130;
-					};
-					A4609BAF23C858330094DB4E = {
-						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
@@ -159,20 +117,12 @@
 			projectRoot = "";
 			targets = (
 				A4609BA623C858330094DB4E /* RandomFrameWork */,
-				A4609BAF23C858330094DB4E /* RandomFrameWorkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A4609BA523C858330094DB4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4609BAE23C858330094DB4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,22 +140,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4609BAC23C858330094DB4E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A4609BB323C858330094DB4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4609BA623C858330094DB4E /* RandomFrameWork */;
-			targetProxy = A4609BB223C858330094DB4E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A4609BB923C858330094DB4E /* Debug */ = {
@@ -377,42 +312,6 @@
 			};
 			name = Release;
 		};
-		A4609BBF23C858330094DB4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RandomFrameWorkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ayush.RandomFrameWorkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A4609BC023C858330094DB4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RandomFrameWorkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ayush.RandomFrameWorkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,15 +329,6 @@
 			buildConfigurations = (
 				A4609BBC23C858330094DB4E /* Debug */,
 				A4609BBD23C858330094DB4E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4609BBE23C858330094DB4E /* Build configuration list for PBXNativeTarget "RandomFrameWorkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4609BBF23C858330094DB4E /* Debug */,
-				A4609BC023C858330094DB4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
