@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "RandomFrameWork"
 
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.4"
 
   spec.summary      = "This is the RandomFrameWork."
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = "5.0"
 
-  spec.source       = { :git => "https://github.com/ayushdayal007/RandomFrameWork.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/ayushdayal007/RandomFrameWork.git", :tag => "1.0.4" }
 
   spec.source_files  = "RandomFrameWork/**/**/*.{h}"
   
